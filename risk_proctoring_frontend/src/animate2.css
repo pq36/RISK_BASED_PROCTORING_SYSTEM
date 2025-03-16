@@ -1,0 +1,164 @@
+/* 🔹 Global Styles */
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  /* 🔹 Header Styling */
+  header {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+  
+  /* 🔹 Welcome Section */
+  .welcome-text {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .welcome-text span {
+    color: #007bff;
+  }
+  
+  /* 🔹 Auth Card */
+  .auth-container {
+    max-width: 900px;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .auth-container:hover {
+    transform: scale(1.02);
+  }
+  
+  /* 🔹 Left Side - Motivation Panel */
+  .auth-left {
+    background: linear-gradient(135deg, #007bff, #6610f2);
+    color: white;
+    border-radius: 20px 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .auth-left h2 {
+    font-weight: bold;
+  }
+  
+  .auth-left p {
+    font-size: 1.1rem;
+  }
+  
+  /* 🔹 Right Side - Login/Register Form */
+  .auth-right {
+    border-radius: 0 20px 20px 0;
+    padding: 40px;
+    background-color: white;
+  }
+  
+  .auth-right h2 {
+    font-weight: bold;
+  }
+  
+  /* 🔹 Login/Register Toggle Buttons */
+  .auth-toggle {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  
+  .auth-toggle button {
+    width: 140px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .auth-toggle .btn-outline-primary:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  /* 🔹 Form Inputs */
+  .form-control {
+    border-radius: 50px;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ced4da;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0px 0px 10px rgba(0, 123, 255, 0.3);
+  }
+  
+  /* 🔹 Submit Button */
+  .auth-button {
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .auth-button:hover {
+    background-color: #0056b3;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* 🔹 Forgot Password Link */
+  .forgot-password {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .forgot-password a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .forgot-password a:hover {
+    text-decoration: underline;
+  }
+  
+  /* 🔹 Footer Styling */
+  footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  footer a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* 🔹 Responsive Design */
+  @media (max-width: 768px) {
+    .auth-left {
+      display: none; /* Hide left panel on small screens */
+    }
+    
+    .auth-right {
+      border-radius: 20px;
+      padding: 30px;
+    }
+  }

@@ -1,0 +1,81 @@
+/* 🌟 Global Styles */
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* 🔹 Header */
+  header {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  /* 🚨 Fraud Warning Box */
+  .warning-box {
+    max-width: 500px;
+    padding: 20px;
+    background-color: #f8d7da;
+    border: 3px solid red;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    animation: blinkEffect 1.5s infinite alternate;
+  }
+  
+  .warning-box h3 {
+    font-size: 1.8rem;
+    color: red;
+    font-weight: bold;
+    animation: shakeEffect 0.5s infinite alternate;
+  }
+  
+  .warning-box p {
+    font-size: 1rem;
+    color: #555;
+    font-weight: 500;
+  }
+  
+  /* 🔹 Footer */
+  footer {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: white;
+    box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer p {
+    font-size: 0.9rem;
+    margin: 0;
+  }
+  
+  /* 🔥 Animations */
+  @keyframes blinkEffect {
+    50% {
+      opacity: 0.5;
+    }
+  }
+  
+  @keyframes shakeEffect {
+    0% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    75% {
+      transform: translateX(-5px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }

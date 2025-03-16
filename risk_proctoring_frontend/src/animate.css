@@ -1,0 +1,112 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar */
+  .navbar {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .navbar h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .navbar input {
+    border-radius: 50px;
+  }
+  
+  /* Hero Section */
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero-section {
+    padding: 60px 0;
+  }
+  
+  .hero-section .btn-primary {
+    border-radius: 50px;
+    font-size: 1.2rem;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .hero-section .btn-primary:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Hiring Exams Section */
+  .card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border: none;
+    min-height: 200px;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card h5 {
+    font-size: 1.2rem;
+  }
+  
+  /* Job Listings */
+  .list-group-item {
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .list-group-item:hover {
+    background-color: #e9ecef;
+  }
+  
+  /* Footer */
+  footer {
+    font-size: 0.9rem;
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Animations */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animate_fadeInUp {
+    animation: fadeInUp 1s ease-in-out;
+  }
+  
+  @keyframes pulseEffect {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .animate_pulse {
+    animation: pulseEffect 1.5s infinite;
+  }
