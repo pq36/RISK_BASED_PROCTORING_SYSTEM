@@ -116,7 +116,7 @@ The Risk-Based Proctoring System is designed to enhance the integrity of online 
 ## Contributors
 
 - **Meghana M** - [GitHub Profile](https://github.com/pq36)
-- **Rakshitha D V** - [GitHub Profile](https://github.com/DevPluse100)
+- **Rakshitha D V** - [GitHub Profile](https://github.com/DevPluse100dv)
 - **Shambhavi M P** - [GitHub Profile](https://github.com/)
 - **Preethi M S** - [GitHub Profile](https://github.com/preethimss)
 
